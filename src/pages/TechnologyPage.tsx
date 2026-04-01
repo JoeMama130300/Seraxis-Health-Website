@@ -122,7 +122,7 @@ export default function TechnologyPage() {
             </div>
             <svg className="w-full h-auto" viewBox="0 0 400 150">
               <path d="M0,75 Q25,25 50,75 T100,75 T150,75 T200,75 T250,75 T300,75 T350,75 T400,75" fill="none" stroke="#4256D0" strokeLinecap="round" strokeWidth="3"></path>
-              <path d="M0,75 Q25,125 50,75 T100,75 T150,75 T200,75 T250,75 T300,75 T350,75 T400,75" fill="none" opacity="0.3" stroke="#A4F0B7" strokeDasharray="8 4" strokeWidth="1.5"></path>
+              <path d="M0,75 Q25,125 50,75 T100,75 T150,75 T200,75 T250,75 T300,75 T350,75 T400,75" fill="none" opacity="0.3" stroke="#98477D" strokeDasharray="8 4" strokeWidth="1.5"></path>
             </svg>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="p-4 bg-surface rounded-xl">
