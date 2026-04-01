@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  
+  --color-primary: #4256D0;
+  --color-on-primary: #ffffff;
+  --color-secondary: #A4F0B7;
+  --color-on-secondary: #00210f;
+  --color-background: #f8fafb;
+  --color-surface: #f8fafb;
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #3e494a;
+  --color-outline: #6e797a;
+  --color-outline-variant: #bdc9ca;
+  --color-surface-container-low: #f2f4f5;
+  --color-surface-container: #eceeef;
+  --color-surface-container-high: #e6e8e9;
+  --color-surface-container-highest: #e1e3e4;
+  --color-surface-container-lowest: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body;
+  }
+}
+
+.signature-gradient {
+  background: linear-gradient(135deg, #4256D0 0%, #3545a7 100%);
+}
+
+.glass-nav {
+  background: rgba(248, 250, 251, 0.8);
+  backdrop-filter: blur(20px);
+}
+
+.ghost-shadow {
+  box-shadow: 0 12px 40px rgba(66, 86, 208, 0.06);
+}
