@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 glass-nav shadow-sm">
       <div className="flex justify-between items-center px-6 md:px-8 py-3 max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-          <Logo className="h-10 md:h-12" />
+          <Logo className="h-8 md:h-10" />
         </Link>
         
         {/* Desktop Navigation */}

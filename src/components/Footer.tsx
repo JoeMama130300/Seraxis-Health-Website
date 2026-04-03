@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
         <div className="col-span-1 md:col-span-1">
           <div className="flex items-center gap-2 mb-6">
-            <Logo className="h-8" />
+            <Logo className="h-7" />
           </div>
           <p className="font-body text-xs leading-relaxed text-slate-500">
             A Seraxis Health brand. Advancing breast health through intelligent acoustic sensing and longitudinal data science.

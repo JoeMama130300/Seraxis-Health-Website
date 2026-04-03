@@ -7,12 +7,12 @@ interface LogoProps {
 
 export default function Logo({ className = "h-10", showText = true }: LogoProps) {
   return (
-    <div className={`flex items-center gap-3 ${className}`}>
+    <div className={`flex items-center gap-2 ${className}`}>
       <svg 
         viewBox="0 0 160 160" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"
-        className="h-full w-auto"
+        className="h-full w-auto shrink-0"
       >
         {/* Grey circles on the left */}
         <circle cx="50" cy="50" r="40" fill="#E5E7EB" />
@@ -35,10 +35,10 @@ export default function Logo({ className = "h-10", showText = true }: LogoProps)
       {showText && (
         <div className="flex flex-col justify-center">
           <div className="flex flex-col leading-none">
-            <span className="font-headline font-bold text-2xl tracking-tight text-[#4256D0]">Seraxis</span>
-            <span className="font-headline font-bold text-2xl tracking-tight text-[#4256D0]">Health</span>
+            <span className="font-headline font-bold text-base md:text-lg tracking-tight text-[#4256D0]">Seraxis</span>
+            <span className="font-headline font-bold text-base md:text-lg tracking-tight text-[#4256D0]">Health</span>
           </div>
-          <span className="text-[8px] font-medium tracking-wider text-on-surface-variant mt-1 italic">
+          <span className="text-[7px] font-medium tracking-wider text-on-surface-variant mt-0.5 italic">
             Seeing Beyond the Moment.
           </span>
         </div>
