@@ -1,5 +1,6 @@
 import React from 'react';
 import { Share2, Globe } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -7,12 +8,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
         <div className="col-span-1 md:col-span-1">
           <div className="flex items-center gap-2 mb-6">
-            <img 
-              alt="Seraxis Health Logo" 
-              className="h-8 object-contain" 
-              src="https://lh3.googleusercontent.com/aida/ADBb0uh_BRs-c2p8ZdT48LK4n94_TqH73uU482B6DGyYi2NfQTm7fXRfWs-DbRS8ozXcvUUZEHHNzdOz1bi8aQL3zCXHtu8AuoL8VwKwZ4TTUX3sXT6DJfLeT8H4j9r9BIWmmvkXehUTAdAPTMR6oz9WnfcAR5wrHBIwoBM25ANsXr0LE2S376clYwtnpGZUi97giuC2FsT0Abyb_g_VpLxDCug1c2aBowGbilkhcPVvgU4Vdtbo_FmOZdcWi68L-XwKd_twvtO4be_k6Q"
-              referrerPolicy="no-referrer"
-            />
+            <Logo className="h-8" />
           </div>
           <p className="font-body text-xs leading-relaxed text-slate-500">
             A Seraxis Health brand. Advancing breast health through intelligent acoustic sensing and longitudinal data science.

@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
+import Logo from './Logo';
 
 export default function Navbar() {
   const location = useLocation();
@@ -26,12 +27,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 glass-nav shadow-sm">
       <div className="flex justify-between items-center px-6 md:px-8 py-3 max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
-          <img 
-            alt="Seraxis Health Logo" 
-            className="h-10 md:h-12 object-contain" 
-            src="https://lh3.googleusercontent.com/aida/ADBb0uh_BRs-c2p8ZdT48LK4n94_TqH73uU482B6DGyYi2NfQTm7fXRfWs-DbRS8ozXcvUUZEHHNzdOz1bi8aQL3zCXHtu8AuoL8VwKwZ4TTUX3sXT6DJfLeT8H4j9r9BIWmmvkXehUTAdAPTMR6oz9WnfcAR5wrHBIwoBM25ANsXr0LE2S376clYwtnpGZUi97giuC2FsT0Abyb_g_VpLxDCug1c2aBowGbilkhcPVvgU4Vdtbo_FmOZdcWi68L-XwKd_twvtO4be_k6Q"
-            referrerPolicy="no-referrer"
-          />
+          <Logo className="h-10 md:h-12" />
         </Link>
         
         {/* Desktop Navigation */}
