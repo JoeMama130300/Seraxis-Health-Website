@@ -189,8 +189,7 @@ export default function MissionPage() {
               <h3 className="font-headline text-sm font-bold tracking-widest text-primary uppercase mb-6">The Sonara Mission</h3>
               <h2 className="font-headline text-4xl font-extrabold text-on-surface leading-tight mb-8">Empowering Early Detection for Women in Singapore.</h2>
               <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
-                <p>At Seraxis Health, we believe that geography and age shouldn't be barriers to life-saving technology. Our mission started in Singapore with a focus on empowering young women with the tools they need for continuous breast health monitoring.</p>
-                <p>By integrating global technological innovation with Singapore's world-class clinical excellence, we are advancing a new standard of proactive breast health—where longitudinal data empowers patients and clinicians with actionable insights.</p>
+                <p>Sonara fuses MIT's proprietary ultrasound technology with Singapore's integrated national health system to deliver the world's first AI-powered wearable breast screening device — making proactive, clinical-grade cancer detection as seamless as wearing a patch. We do not just provide answers; we provide confidence, continuity, and care.</p>
               </div>
               <div className="mt-12 flex items-center gap-8">
                 <div className="flex -space-x-3">
