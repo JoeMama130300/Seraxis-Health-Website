@@ -190,7 +190,7 @@ export default function MissionPage() {
               <h2 className="font-headline text-4xl font-extrabold text-on-surface leading-tight mb-8">Empowering Early Detection for Women in Singapore.</h2>
               <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
                 <p>At Seraxis Health, we believe that geography and age shouldn't be barriers to life-saving technology. Our mission started in Singapore with a focus on empowering young women with the tools they need for continuous breast health monitoring.</p>
-                <p>By blending Silicon Valley innovation with local clinical expertise, we are building a sanctuary of proactive care—one where data provides peace of mind, not just answers.</p>
+                <p>By integrating global technological innovation with Singapore's world-class clinical excellence, we are advancing a new standard of proactive breast health—where longitudinal data empowers patients and clinicians with actionable insights.</p>
               </div>
               <div className="mt-12 flex items-center gap-8">
                 <div className="flex -space-x-3">
